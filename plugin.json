@@ -1,0 +1,26 @@
+{
+  "name": "imbue",
+  "version": "1.0.0",
+  "description": "Intelligent workflow methodologies for analysis, evidence gathering, and structured output patterns",
+  "main": "skills",
+  "skills": [
+    "skills/review-core",
+    "skills/evidence-logging",
+    "skills/structured-output",
+    "skills/diff-analysis",
+    "skills/catchup"
+  ],
+  "dependencies": ["abstract"],
+  "keywords": ["workflow", "analysis", "evidence", "structured-output", "methodology", "patterns"],
+  "author": "Claude Skills",
+  "license": "MIT",
+  "claude": {
+    "skill_prefix": "imbue",
+    "auto_load": false,
+    "categories": {
+      "review-patterns": "Shared scaffolding for review workflows",
+      "analysis-methods": "Intelligent analysis and summarization methodologies",
+      "output-patterns": "Evidence capture and structured output formatting"
+    }
+  }
+}
